@@ -20,6 +20,34 @@ public class Alumno implements Serializable {
 		this.Nia = nia;
 	}
 
+	public String getNombre() {
+		return nombre;
+	}
+
+	public String getApellido() {
+		return apellido;
+	}
+
+	public String getCiclo() {
+		return ciclo;
+	}
+
+	public String getCurso() {
+		return curso;
+	}
+
+	public String getGrupo() {
+		return grupo;
+	}
+
+	public LocalDate getFechaNacimiento() {
+		return fechaNacimiento;
+	}
+
+	public char getGenero() {
+		return genero;
+	}
+
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}

@@ -111,8 +111,15 @@ public class Test {
 				listaAlumnos.add(alum);
 			}
 
-			for (Alumno alumno : listaAlumnos) {
+			/*for (Alumno alumno : listaAlumnos) {
 				System.out.println(alumno);
+			}*/
+			
+			try {
+				LeeAlumnos.leerFichero(fichero);
+			} catch (ClassNotFoundException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
 
 			oos.close();
